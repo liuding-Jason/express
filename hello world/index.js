@@ -11,4 +11,4 @@ app.get("/" , function(req , res){
 });
 
 app.listen(3000);
-console.log("express server is running at 3000");
+console.log("express server is running at port 3000");
