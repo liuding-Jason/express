@@ -1,5 +1,5 @@
 
-![logo](./img/title.jpg)
+![logo](./img/title.png)
 	
 # Express
 	
