@@ -1,0 +1,26 @@
+{
+  "name": "express-simple-uses",
+  "version": "0.0.1",
+  "description": "node.js express framework test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuding-Jason/express.git"
+  },
+  "keywords": [
+    "express",
+    "node"
+  ],
+  "author": "liuding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuding-Jason/express/issues"
+  },
+  "homepage": "https://github.com/liuding-Jason/express#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
