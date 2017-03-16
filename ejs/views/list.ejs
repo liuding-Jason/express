@@ -1,0 +1,33 @@
+<!-- list ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejs Engine</title>
+</head>
+<style>
+.list-row{
+	border-bottom : 1px solid #ccc ;
+	height : 50px;
+	line-height : 50px;
+}
+
+.list-row span{
+	display : inline-block ;
+	width : 33% ;
+	font-size : 15px ;
+	font-weight : 700 ;
+	text-align:center ;
+}
+</style>
+<body>
+	<h1>Hello <%=title.toUpperCase()%></h1>
+	<div class="list-row">
+		<span><b>姓名</b></span><span><b>年龄</b></span><span><b>成绩</b></span>
+	<div>
+	<% list.forEach(function({name , age , grade}){ %>
+		<div class="list-row">
+			<span><%=name%></span><span><%=age%></span><span><%=grade%></span>
+		<div>
+	<%})%>
+</body>
+</html>
