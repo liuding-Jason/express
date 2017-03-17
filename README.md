@@ -15,7 +15,7 @@ A repository containing small examples to illustrate the use of Node framework *
 
 Use node's npm package tools to install dependent resources .
 
-Supervisor could support hot and inline refresh of javaScript files .
+***Supervisor*** could support hot and inline refresh of javaScript files .
 
 ### build project
 
@@ -27,7 +27,6 @@ Supervisor could support hot and inline refresh of javaScript files .
 	
 	supervisor hello\ world/index.js 
 	
-
 ### es6 compatible solution
 	
 	node index.js --harmony
