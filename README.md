@@ -10,6 +10,7 @@ A repository containing small examples to illustrate the use of Node framework *
  - [hello-world](hello-world) - hello-world test ***Express*** 
  - [express-router](express-router) - shows the simple use of ***express router*** .
  - [simple-server](simple-server) - simple-server builds a simple server .
+ - [middleware](middleware) - middleware shows the uses of ***express middleware*** .
 
 ## Build Guide 
 
