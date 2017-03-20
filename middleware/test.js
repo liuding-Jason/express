@@ -1,6 +1,8 @@
 
 /*
-* Express Middleware
+* Express Middleware 
+* 
+* Sorry ! send file can use res.sendFile(file url)
 */
 
 var express = require("express") ;
