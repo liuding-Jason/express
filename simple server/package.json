@@ -1,0 +1,18 @@
+{
+  "name": "client-and-server",
+  "version": "0.0.0",
+  "description": "client and server ",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "client",
+    "node",
+    "express",
+    "server"
+  ],
+  "author": "liuding",
+  "license": "MIT"
+}
