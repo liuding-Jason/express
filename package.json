@@ -21,9 +21,11 @@
   },
   "homepage": "https://github.com/liuding-Jason/express#readme",
   "dependencies": {
+    "connect-redis": "^3.3.0",
     "ejs": "^2.5.6",
     "express": "^4.15.2",
     "express-session": "^1.15.2",
+    "morgan": "^1.8.1",
     "supervisor": "^0.12.0"
   }
 }
