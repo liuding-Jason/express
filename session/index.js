@@ -19,7 +19,6 @@ app.use(session({
 
 app.get('/', function(req, res){
   var body = '' ;
-  console.log(req.session) ;
   if (req.session.views) {
     ++req.session.views;
   } else {
