@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/liuding-Jason/express#readme",
   "dependencies": {
+    "body-parser": "^1.17.1",
     "connect-redis": "^3.3.0",
     "cookie-parser": "^1.4.3",
     "ejs": "^2.5.6",
