@@ -12,6 +12,7 @@ A repository containing small examples to illustrate the use of Node framework *
  - [hello-world](hello world) - hello-world tests ***Express*** 
  - [simple-server](simple server) -  builds a simple server .
  - [middleware](middleware) - shows the uses of ***express middleware*** .
+ - [cookie](cookie) - shows how to use ***cookie*** to manage your clients .
  - [session](session) - shows how to use ***session*** to manage your clients .
  - [param](param) - would be used to attach a callback function of given params in ***RESTFUL*** requests .
  - [base router](base router) shows how to use ***express().route()*** .
