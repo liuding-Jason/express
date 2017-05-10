@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+</head>
+<body>
+	<p>
+		<input type="text" name="username" placeholder="Input your username!" />
+	</p>
+	<p>
+		<input type="password" name="password" placeholder="Input your password" />
+	</p>
+	<p>
+		<button id="btn">Login In</button>
+	</p>
+	<script type="text/javascript">
+		{
+			let btn = document.getElementById("btn") ;
+			btn.addEventListener("click" , (ev) => {
+				let inputs = document.querySelectorAll("input") ;
+				let us = inputs[0].value ;
+				let ps = inputs[1].value ;
+				location.href = location.href + "/" + us + '/' + ps ;
+			});	
+		}
+	</script>
+</body>
+</html>

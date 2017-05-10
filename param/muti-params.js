@@ -4,6 +4,7 @@
 */
 
 var express = require("express") ;
+var path = require("path") ;
 var app = express() ;
 
 const baseUrl = "localhost" ;
@@ -27,11 +28,7 @@ app.get("/" , function(req , res){
 
 app.get("/login" , function(req , res){
 	res.status(200);
-	res.send(`<form method="GET" action="//${baseUrl}:${port}/login">
-			<input type="text" name="username" placeholder="Input your username" /><br />
-			<input type="password" name="password" placeholder="Input your password" /><br />
-			<input type="submit" value="Login" />
-		</form>`);
+	res.sendfile(path.join(__dirname , "/login.html"));
 });
 
 app.get("/login/:username/:password" , function(req , res){
