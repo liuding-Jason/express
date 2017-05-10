@@ -9,10 +9,12 @@ A repository containing small examples to illustrate the use of Node framework *
 
 ## Included Examples
 
- - [hello-world](hello world) - hello-world test ***Express*** 
+ - [hello-world](hello world) - hello-world tests ***Express*** 
  - [express-router](express router) - shows the simple use of ***express router*** .
- - [simple-server](simple server) - simple-server builds a simple server .
- - [middleware](middleware) - middleware shows the uses of ***express middleware*** .
+ - [simple-server](simple server) -  builds a simple server .
+ - [middleware](middleware) - shows the uses of ***express middleware*** .
+ - [session](session) - shows how to use ***session*** to manage your clients .
+ - [param](param) - would be used to attach a callback function of given params in ***Get*** requests .
 
 ## Build Guide 
 
