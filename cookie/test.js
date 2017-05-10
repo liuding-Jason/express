@@ -12,10 +12,12 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var app = module.exports  = express() ;
+var multer = require("multer");
 
 // custom log format
 if ('test' != process.env.NODE_ENV) app.use(logger(':method :url'));
 
+app.use(multer()); // for parsing multipart/form-data
 app.use(bodyParser());
 app.use(cookieParser("my secert")) ;
 
