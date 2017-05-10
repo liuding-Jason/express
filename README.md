@@ -3,18 +3,20 @@
 	
 # Express
 	
-A repository containing small examples to illustrate the use of Node framework ***Express*** for creating web applications and other HTTP servers .
+A repository containing small examples to illustrate the use of Node framework ***Express*** for creating web applications and other `HTTP servers` .
 
 ***
 
 ## Included Examples
 
  - [hello-world](hello world) - hello-world tests ***Express*** 
- - [express-router](express router) - shows the simple use of ***express router*** .
  - [simple-server](simple server) -  builds a simple server .
  - [middleware](middleware) - shows the uses of ***express middleware*** .
  - [session](session) - shows how to use ***session*** to manage your clients .
  - [param](param) - would be used to attach a callback function of given params in ***RESTFUL*** requests .
+ - [base router](base router) shows how to use ***express().route()*** .
+ - [express-router](express router) - shows the simple use of ***express router*** .
+
 
 ## Build Guide 
 
