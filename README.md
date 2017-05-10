@@ -14,7 +14,7 @@ A repository containing small examples to illustrate the use of Node framework *
  - [simple-server](simple server) -  builds a simple server .
  - [middleware](middleware) - shows the uses of ***express middleware*** .
  - [session](session) - shows how to use ***session*** to manage your clients .
- - [param](param) - would be used to attach a callback function of given params in ***Get*** requests .
+ - [param](param) - would be used to attach a callback function of given params in ***RESTFUL*** requests .
 
 ## Build Guide 
 
