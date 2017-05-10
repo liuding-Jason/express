@@ -36,7 +36,14 @@ app.route("/list")
 	res.send("<h1>Hello List Get</h1>") ;
 })
 .post(function(req , res , next){ 	// Post
-	res.send("<h1>Hello List Post</h1>");
+	res.json({
+		code : 0 ,
+		message : 'ok' ,
+		data : {
+			data : []
+		} ,
+		version : 0.0.1
+	});
 });
 
 if(!module.parent){
