@@ -36,9 +36,9 @@ cd express && npm install
 supervisor hello\ world/index.js 
 ```	
 ### es6 compatible solution
-```bash
-node index.js --harmony
-```
+
+	node index.js --harmony
+
 ### to see results
 
 	http://localhost:3000
